@@ -1,0 +1,10 @@
+List are pretty useful, but unless you can get at the things in them they aren't all that good. You can already go through the elements of fa list in order, but what if you want to say, the fifth element? You need to know how to access the elements of a list.
+
+  animals = ['bear', 'tiger', 'penguin', 'zebra'];
+  bear = animals[0];
+
+You take a list of animals, and then you get the first (1st) one using 0?! How does that work? Because of the way math works, Python starts its list at 0 rather than 1. It seems weird, but there are many advantages to this, even though it is mostly arbitrary.
+
+The best way to explain why is by showing you the difference between how you use numbers and how programmers use numbers.
+
+Imagine you are watching the four animals in our list ( ['bear', 'tiger', 'penguin', 'zebra'] ) run in a race. They cross the finish line in the order we have thim in this list. The race was really exciting because the animals didn

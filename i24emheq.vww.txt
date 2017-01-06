@@ -1,0 +1,18 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   __pycache__/ex23.cpython-34.pyc
+#	new file:   __pycache__/ex25.cpython-34.pyc
+#	modified:   ex1.py
+#	modified:   ex2.py
+#	modified:   ex3.py
+#	modified:   ex31.py
+#	new file:   ex32.py
+#	new file:   ex33.py
+#	modified:   ex4.py
+#
+
