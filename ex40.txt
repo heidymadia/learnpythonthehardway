@@ -1,0 +1,37 @@
+Modules, Classes, and Objects
+
+Mobels Are Like Dictionaries
+You know how a dictionary is created and used and that it is a way to map one thing to another.
+Keep this idea of "get X from Y" in your head and now think about modules.
+1. A Python file with some function or variables in it.
+2. You import that file.
+3. And you can access the fuction or variables in that module with . (dot) operator.
+
+Classes are like modules
+You can think about a module as a specialized dictionary that can store Python code so you can access it with the . (dot) operator. Python also has another construct that serves a similar purpose called a class. A class a way to take a grouping of functions and data and place them inside a container so you can access them with . (don) operator.
+
+Objects are Like Import
+If a class is like "mini-module" then there has to be a similar concept to import for classes. That concept is called "instantiated", which is just a fancy, obnoxious, overly smart way to say "create." When you instantiate a class what you get is called an object.
+
+You instatiate (create) a class by calling the class like it's a function.
+
+The frist line is the "instantiate" operation is lato like calling a function. However, Python coordinates a sequence of events for you behind the scenes. I'll go through these steps using the above code for MyStuff :
+1. Python looks for MyStuff and sees that it is a class you've defined.
+2. Python crafts an empty object with all the functions you've specified in the class using def.
+3. Python then looks to se if you made a "madic" __init__ function and if you have it calls that function to initialize your newly created empty object.
+4. In the MyStoff function __init__ I then get this extract variable self, which is that empty object Python made for me, asd I can set variables on it just like you with a module, dictionaly, or other object.
+5. In this case, I set self.tangerine to a song lyric and then I've initialized this object.
+6. Now Python can take this newly minted object and assign it to the thing variable for me to work with.
+
+Getting Things from Things
+# dict style
+myStuff['apples'];
+
+# module style
+myStuff.apples();
+print(myStuff.tangerine);
+
+# class style
+thing = MyStuff();
+thing.apples()
+print(thing.tangerine);
