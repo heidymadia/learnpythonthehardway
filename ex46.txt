@@ -11,4 +11,4 @@ I am warning you; this will be frustrating. In the business we call this "yak sh
 Struggle through this anyway. Consider it your triy by annoyanec to get into the programmer club. Every programer has to do these annying tedious tasks before they can do something cool.
 
 Creating the Skeleton Project directory
-First, create the structure of your skeleton directory wi
+See the skeleton folder
