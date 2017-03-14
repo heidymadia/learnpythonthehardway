@@ -1,0 +1,23 @@
+Exercise 45: You make a game
+
+1. Made a different game from the one I made.
+2. Use more than one file, and use import to use them. Make sure you know what that is
+3. Use one class pre room and give the classes names that fit their purpose (like GoldRoom, KoiPondRoom).
+4. Your runner will need to know about these rooms, so make a class that runs them and knows about them. There's plenty of ways to do this, but considering having each room return what room is next or setting a variable of what room is next. There's plenty of ways to do this, but consider having each room return what room is next or setting a variable of what room is next.
+
+Other that that I leave it to you. Spen a whole week on this and make it the best game you can. Use classes, functions, dicts, lists, anything you can to make it nice. The purpose of this lesson is to teach you how to structure classes that need other classes inside other files.
+
+Remember, I'm not telling you exactly how to do this because you have to do this yourself. Go figure it out. Programming is problem solving, and that means trying things, experimenting, failing, scrapping you work, and trying again. When you get stuck, ask for help and show people your code. If they are mean to you, ignore them, focus on the people who are not mean and offer to help. Keep working it and cleaning it untill it's good, then show it some more.
+
+Good luck, and see you in a week with your game.
+
+==========================================================
+I want to crate a "Dead by Daylight" inspired game where Player is playing Claudette to finish a game by
+1. Repairing generator
+2. Random event like
+  a. Generator fixed by other
+  b. Finding a case / finding a loot
+  c. Caught up by Killer
+  d. etc.
+3. Powering up the gate
+4. Unlock the exit hatch

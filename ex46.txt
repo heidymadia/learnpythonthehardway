@@ -1,0 +1,14 @@
+Install the following Python packages
+1. pip from http://pyyp.pythoun.org/pypi/pip
+2. distribute from http://pypi.python.og/pypi/distribute
+3. nose from http://pypi.python.org/pypi/nose
+4. virtualenv from http://pypi.python.org/pypi/virtualenv
+
+Do not just download these packages and install them by hand. Instead see how other people recommend you install these packages and use them for your particular system. The process will be different for most versions of Linux, OSX, and definitely different for Windows.
+
+I am warning you; this will be frustrating. In the business we call this "yak shaving." Yak Shavirg is any activity that is mind numblingly, irritating boring and tedious that you have to do before you can do something else that's more fun. . You want to create a cool Python porjects, but you can't do that untill you set up a skeleton directory, but you can't sut up a skeleton directory untill you install some packages, but you can't install packages untill you install package installer, and you can't install package installer untill you figure out how your system install software in general, and so on.
+
+Struggle through this anyway. Consider it your triy by annoyanec to get into the programmer club. Every programer has to do these annying tedious tasks before they can do something cool.
+
+Creating the Skeleton Project directory
+First, create the structure of your skeleton directory wi
