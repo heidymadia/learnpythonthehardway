@@ -1,0 +1,37 @@
+Exercise 28: Boolean Practice
+The logic combination you learned froh the last exercise called "boolean" logic expression. Boolean logic is used everywhere in programming. It is a fundamental part of computation and knowing them very well is akin to knowing your scales in music.
+
+In this exercise you will take the logice exercise you will take the logic exercise you memorized and start trying them out in Python. Take each of these logic problems and write what you thingk the answer will be. In each case it will be either True or False. Once you have the answwer written down, you will start Python in your Terminal nad type each logic prbolm in to confirm your answers.
+
+1. True and True
+2. False and True
+3. 1 == 1 and 2 == 1
+4. "test" == "test"
+5. 1 == 1 or 2 != 1
+6. True and 1 == 1
+7. False and 0 != 1
+8. True or 1 == 1
+9. "test" == "testing"
+10. 1 != 0 and 2 == 1
+11. "test" != "testing"
+12. "test" == 1
+13. not (True and False)
+14. not (1 == 1 and 0 != 1)
+15. not (10 == 1 or 1000 == 1000)
+16. not (1 != 10 or 3 == 4)
+17. not ("testing" == "testing" and "Zed" == "Cool Guy")
+18. 1 == 1 and (not ("testing" == 1 or 1 == 0))
+19. "chunky" == "bacon" and (not (3 == 4 or 3 == 3))
+20. 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))
+
+I will also give you a trick to help you figure out the more complicated ones toward the end.
+
+Whenever you see these boolean logic statements, you can solve them easily by this simple process:
+1. Find an equality test (== or !=) and replace it with its truth
+2. Find each and/or inside parentheses and solve those firest.
+3. Find each not and invert it.
+4. Find any remaining and/or and solve it.
+5. When you are done you should have True or False
+
+Warning
+Theh more complicated ones may seem very hard at first. You should be able to give a good first stab at solving them, but do not get discouraged. I'm just getting you primeed for more of these "logic gymnastic" so that later cool stuff is much easier. Just stcik with it, and keep track of what you get wrong, but do not worry that it's not getting in your head quite yet. It'll come.
