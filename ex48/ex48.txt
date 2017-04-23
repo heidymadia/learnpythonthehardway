@@ -1,0 +1,10 @@
+Advanced User Input
+
+In past games you handled the user's input by simply expecting set string. If the user typed "run", and exactly "run", then the game worked. If they typed in similar phrases like "run fast" it would fail. What we need is a device that lets users typed phrases in various ways and then convert that into something the computer understands. For example, we'd like to have all of these phrases work the same:
+* open door
+* open the door
+* go THROUGH the door
+* punch bear
+* Punch The Bear in the FACE
+
+It should be alright for a user to write something a lot like English for your game, and have your game figure out what it means. To do this, we're going to write a module that does just that
