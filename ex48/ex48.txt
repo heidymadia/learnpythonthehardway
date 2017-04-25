@@ -58,17 +58,17 @@ You deal with an exception by using the try an except keywords:
     except ValueError:
       return None
 
-You put the code you want to "try" inside the try block, and then you put the code to run for the error inside the except. In thes case, we want to "try" to call int() on something that might be a number. If that has an error, then we "catch" it and return None.
+You put the code you want to "try" inside the try block, and then you put the code to run for the error inside the except. In this case, we want to "try" to call int() on something that might be a number. If that has an error, then we "catch" it and return None.
 
-In your scanner that you write, you should use this function to test if something is a number. You should also do it as teh last thing you check for before declaring that word an error word.
+In your scanner that you write, you should use this function to test if something is a number. You should also do it as the last thing you check for before declaring that word an error word.
 
 A Test First Challenge
-Test first isa programming tactic where you write an automated test that pretends the code works, then you write the code to mke the test actually work. This method works when you can't visualize how the code implemented, but you can imagine how you have to work with it. For example, if you know how you need to use new class in another module, but you don't quite know hot to implement that class yet, then write the test first.
+Test first is a programming tactic where you write an automated test that pretends the code works, then you write the code to make the test actually work. This method works when you can't visualize how the code implemented, but you can imagine how you have to work with it. For example, if you know how you need to use new class in another module, but you don't quite know hot to implement that class yet, then write the test first.
 You are going to take a test I give you and use it to write the code that makes it work. To do this exercise you're going to follow this procedure:
 1. Create one small part of the test I give you.
 2. Make sure it runs and fails so you know that the test is actually confirming a feature works.
 3. Go to your source file lexicon.py and write the code that makes this test pass.
-4. Repeat untill you have implemented everything in the test.
+4. Repeat until you have implemented everything in the test.
 
 When you get to 3 it's also good to combine our other method of writing code:
 1. Make the "skeleton" function or class that you need.
@@ -85,4 +85,18 @@ This method of writing code is called "pseudo code" tactics we have this simple 
 
 In this exercise you will practice this method of working by making a test I give you run against the lexicon.py module
 
-What You Should Test 
+What You Should Test
+the test case is in lexicon_tests.py file that you should use.
+You will want to create a new project using the project skeleton just like you did in Exercise 47. THen you'll need to create this test case and the lexicon.py. Look at the top of the test case to see how it's being imported to figure out where it goes.
+Next, follow the procedure I gave you and write a little bit of the test case at a time. For example, here's how I'd do it:
+1. Write the import at the top. Get that to work.
+2. Create an empty version of the first test case test_directions. Make sure that runs.
+3. Write the first line of the tes_directions test case. Make it fail.
+4. Go te lexicon.py file, create an empty scan function.
+5. Run the test, make sure scan is at least running, even though it fails.
+6. Fill in pseudo code comments for how scan should work to make test_directions pass.
+7. Write the code that matches the comments until test _directions passes.
+8. Go back to test_direction and write the rest of the lines.
+9. Back to scan in lexicon.py and work on it to make this new test code pass.
+10. Once you've done that you have your first passing test, and you move on the next test.
+As long as you keep following this procedure one little chunk at a time you can successfully turn a large problem into smaller solvable problems. It's like climbing a mountain by turning it into a bunch of little hills.
