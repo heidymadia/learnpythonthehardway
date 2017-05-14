@@ -14,6 +14,6 @@ config = {
     'packages': ['ex47'],
     'scripts': [],
     'name': 'projectname'
-}
+};
 
 setup(**config);

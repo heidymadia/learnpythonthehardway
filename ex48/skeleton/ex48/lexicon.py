@@ -1,18 +1,18 @@
 class Lexicon(object):
     def __init__(self):
-        pass
+        pass;
 
     def test_direction(self, direction):
-        pass
+        pass;
 
     def test_verbs(self, verb):
-        pass
+        pass;
 
     def test_stops(self, stop):
-        pass
+        pass;
 
     def test_nouns(self, noun):
-        pass
+        pass;
 
     def test_numbers(self, number):
-        pass
+        pass;
