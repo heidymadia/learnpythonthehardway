@@ -1,0 +1,5 @@
+Comments are very important in your programs. They are used to tell you what something does in English, and they are used to disable parts of your program if you need to remove them temporarily. Here's how you use comments in Python:
+
+From now on, I'm going to write code like this. It is important for you to understand that everything does not have to be literal. Your screen and program may visually look different, but what's immportant is the text you type into the file you're writing in your text editor. In fact, I could work with any text editor and the result would be the same.
+
+Again, I'm not goind to show you screenshots of all the terminal possible. You should understand that the above is not a literal translation of what your output should look like visually, but the text between the first line and last line will be what you focus on. 

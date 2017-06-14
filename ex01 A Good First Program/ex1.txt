@@ -1,0 +1,11 @@
+You should have spent a good amount of time in Exercise 0 learning how to install a text editor, run the text editor, run the Terminal, and work with both of them. If you haven't done that, then do not go on. You will not have a good time. This is the only time I'll start an exercise with a warning that you should not skip or get ahead of yourself.
+
+Don't worry if your editor doos't look exactly the same, it should be close though. You may have aslightly different window header, maybe slightly different colors, and the left of your Atom window won't say "zedshaw" but will instead show the directory you used for saving files. All of those difference are fine.
+
+When you create this file, keep in mind these points:
+1. I did not type the line numbers on the left. Those are printed in the book so I can talk about specific lines by saying, "See line 5..." You do not type line numbers into Python scripts.
+2. I have the print at the beginning of the line and it looks exactly the same as what I have in ex1.py . Exactly means exactly, not kind of sort of the same. Every single character has to match for it work. Color doesn't matter, only the characters you type.
+
+If you did it right then you should see the same output as I in the #What You Should See# section of this exercise. If not, you have done something wrong. No, the computer is not wrong.
+
+It's important that you can read these error messages because you will be making many of these mistakes. Even I make many of these mistakes. 

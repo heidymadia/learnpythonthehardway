@@ -1,0 +1,14 @@
+Every progamming language has some kind of way of doing numbers and math. Do not worry: programmers lie frequently about being math geniuses when they really aren't. If they were math geniuses, they would be doing math not writting buggy web frameworks so they can drive race cars.
+
+This exercise has lots of maths symbols. Let's name them right away so you know what they are called. As you type this one in, say the name. When saying them feels boring you can stop saying them. Here are the names:
+* + plus
+* - minus
+* / slash
+* * asterisk
+* % percent
+* < less-than
+* > greater-than
+* <= less-than-equal
+* >= greater-than-equal
+
+Make sure you type this exactly before you run it. Compare each line of your file to my file. 

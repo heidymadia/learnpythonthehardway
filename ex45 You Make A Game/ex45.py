@@ -21,3 +21,6 @@ class Engine(object):
             current_scene = self.scene_map.next_scene(next_scene_name);
 
         current_scene.enter();
+
+ class Death(Scene):
+     
