@@ -1,0 +1,3 @@
+Exercise 8 : Printing, Printing
+
+We will now see how to do a more complicated formatting of a string. This code looks complex, but if you do your comments above each line and break each thing down to its parts, you'll understand it.
